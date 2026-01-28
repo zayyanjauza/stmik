@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PMB Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Pendaftaran Mahasiswa Baru</h2>
+
+<form id="formPMB">
+    <input id="nama" placeholder="Nama Lengkap" required>
+    <input id="nisn" placeholder="NISN" required>
+    <select id="jurusan">
+        <option value="">Jurusan</option>
+        <option>Informatika</option>
+        <option>Sistem Informasi</option>
+    </select>
+    <button>Simpan</button>
+</form>
+
+<table>
+<thead>
+<tr><th>No</th><th>Nama</th><th>NISN</th><th>Jurusan</th></tr>
+</thead>
+<tbody id="tabelPMB"></tbody>
+</table>
+
+<a href="index.html" class="back">⬅ Kembali</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
